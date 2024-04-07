@@ -1,0 +1,610 @@
+#preview {
+    background: transparent url(graphic/product.png) no-repeat center left;
+    margin-left: 10px;
+    padding-left: 200px;
+    min-width: 400px;
+    min-height: 269px;
+    height: auto !important;
+    height: 269px;
+    width: 180px;
+}
+div.hidden {
+    display: none;
+}
+a[class ='app1'] {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_prog.png) no-repeat center left;
+}
+a[class ='app2'] {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_mun.png) no-repeat center left;
+}
+a[class ='vid'] {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_vid.png) no-repeat center left;
+}
+body.evt-param h1{
+    margin-bottom: 0px;
+}
+body.evt-param h3{
+    margin-top: 5px;
+    margin-left: 45px;
+} 
+.cell-blue {
+    background-color: #3399CC;    
+}
+.cell-gray {
+    background-color: #989898;
+    
+}
+.cell-green {
+    background-color: #339966;
+}
+.cell-khaki {
+    background-color: #C4C4A6;
+}
+code {
+    display: inline;
+    background-color: #bcbcbc;
+    padding: 2px 5px;
+}
+.def-popup-desc {
+    background: #ffffe1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    left: 272px;
+    margin:0px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    width: 363px;
+}
+.def-popup-param {
+    background: #000000;
+    filter: alpha(opacity=0);
+    height: 16px;
+    margin:0px;
+    width: 254px;
+}
+#def-popup-container {
+    left: 18px;
+    position: absolute;
+    top: 39px;
+}
+dl.part dd {
+    margin-left: 125px;
+}
+dl.part dt {
+    width: 100px;
+}
+dl.product_info dt {
+    font-weight: normal;
+}
+dl.product_info dd {
+    margin-left: 185px;
+}
+.double-indent .index-block-3 {
+    padding-left: 0px;
+}
+.double-indent .index-block-4 {
+    padding-left: 35px;
+}
+.double-indent .index-block-5 {
+    padding-left: 65px;
+}
+form.index-button1 {
+    float:left; 
+    margin-right:5px;
+}
+form.next-button1 {
+    float:left; 
+    clear:right;
+}
+form.index-button2 {
+    float:left; 
+    margin-right:5px;
+}
+form.previous-button2 {
+    float:left; 
+    margin-right:5px;
+}
+form.previous-button3 {
+    float:left; 
+    clear:right;
+}
+form.next-button2 {
+    float:left; 
+    clear:right;
+}
+.highlight-yellow {
+    background-color: #ffff00;
+}
+.highlight-green {
+    background-color: #00ff00;
+}
+.highlight-blue {
+    background-color: #00ffff;
+}
+.highlight-gray {
+    background-color: #c0c0c0;
+    }
+img[class ='chk'] {
+    padding-right: 5px;
+    background: transparent no-repeat center left;
+}
+img[class ='cau'] {
+    padding-right: 5px;
+    background: transparent no-repeat center left;
+} 
+img[class ='err'] {
+    padding-right: 5px;
+    background: transparent no-repeat center left;
+}
+#lay-board {
+    display:none;
+}
+
+.close dd{
+    margin-left:50px;
+}
+.param dt{
+    float:none;
+    clear:both;
+    margin-bottom:5px;
+    margin-top:20px;
+}
+
+.param dd{
+    float:none;
+    clear:both;
+    margin-top:5px;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.schem {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_dwg.gif) no-repeat center left;
+}
+table.disable tr th {
+    background-color:#D7D7D0;
+    color: #959595;
+    border-width: 1px;
+    border-style: inset;
+    border-color: #BBBBBB;
+    white-space:nowrap
+}
+table.disable tr td  {
+    background-color:#D7D7D0;    
+    color: #959595;
+    border-width: 1px;
+    border-color: #BBBBBB;
+    white-space:nowrap
+}
+table.disable  {
+    background-color:#eeeeee;
+    color: #000000;
+    border-width: 1px;
+    border-style: inset;
+    border-color: #BBBBBB;
+}
+table.no-border tr th  {
+    background-color:#ffffff;
+    color: #ffffff;
+    border-width: 0px;
+    border-style: none;
+    border-color: #ffffff;
+    white-space:nowrap
+}
+table.no-border tr th table.data tr th {
+    color: #ffffff;
+    border-width: 0px;
+    border-style: inset;
+    border-color: #ffffff;
+    font-size: 13px;
+    padding: 0px 5px;
+}  
+table.no-border td {
+    background-color:#ffffff;
+    color: #000000;
+    border-width: 0px;
+    border-style: none;
+    border-color: #ffffff;
+    white-space: nowrap;
+    vertical-align: top;
+}
+table.no-data tr td {
+    background-color:#ffffff;
+    color: #000000;
+    border-width: 0px;
+    border-style: none;
+    border-color: #ffffff;
+    white-space:nowrap
+}
+table.no-data tr td table.data tr td {
+    color: #000000;
+    border-width: 1px;
+    border-style: inset;
+    border-color: #999999;
+    font-size: 13px;
+    padding: 0px 5px;
+}
+table.no-data tr th  {
+    background-color:#ffffff;
+    color: #ffffff;
+    border-width: 0px;
+    border-style: none;
+    border-color: #ffffff;
+    white-space:nowrap
+}
+.revision-entry {
+    background: transparent url(graphic/product.gif) no-repeat center left;
+    margin-left: 10px;
+    padding-left: 150px;
+    min-width: 400px;
+    min-height: 160px;
+    height: auto !important;
+    height: 160px;
+}
+.table-scroll {
+    direction: rtl;
+    height: 382px;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    text-align: left;
+    width: 700px;
+}
+.table-scroll-2 {
+    direction: ltr;
+    height: 382px;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    text-align: left;
+    width: 244px;
+}
+.table-scroll table,
+.table-scroll-2 table{
+    direction: ltr;
+}
+.table-scroll th,
+.table-scroll-2 th{
+    white-space: nowrap;
+    position: relative;
+    top: expression(offsetParent.scrollTop);
+}
+.param dt{
+    float:none;
+    clear:both;
+    margin-bottom:5px;
+    margin-top:20px;
+}
+
+.param dd{
+    float:none;
+    clear:both;
+    margin-top:5px;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+
+.param-oc {
+    margin-left:116px;
+}
+.param-oc-out {
+    margin-left:122px;
+}
+.quick-box>:first-child {
+    background-color: #eeeeee;
+    font-weight: bold;
+    margin: 0px 0px;
+    margin-top: 25px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    width: 105px;
+}
+.quick-box .icon-index {
+    margin: 0px 15px;
+}    
+.quick-box-long>:first-child {
+    background-color: #eeeeee;
+    font-weight: bold;
+    margin: 0px 0px;
+    margin-top: 25px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.quick-box-long .icon-index {
+    margin: 0px 15px;
+}
+.quick-box-short>:first-child {
+    background-color: #eeeeee;
+    font-weight: bold;
+    margin: 0px 0px;
+    margin-top: 25px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    width: 75px;
+}
+.quick-box-short .icon-index {
+    margin: 0px 15px;
+}
+
+.glossary dt{
+    width:150px;
+    clear:left;
+}
+
+.glossary dd{
+    margin-left:170px;
+}
+
+.glossary-narrow dt{
+    width:100px;
+    clear:left;
+}
+
+.glossary-narrow dd{
+    margin-left:120px;
+}
+.formula {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 150%;
+    font-style: italic;
+    letter-spacing:.2em;
+}
+
+.img-popup {
+    background: transparent url(graphic/popupblu.gif) no-repeat center right;
+    display: inline;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+table.form tr td {
+    background-color:#FFFFFF;
+    color: #000000;
+    border-width: 0px;
+    border-style: none;
+    border-color: #eeeeee;
+    white-space:nowrap
+}
+.text-blue{
+    color: blue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+.text-green{
+    color: green;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+.text-red{
+    color: red;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+}
+.text-orange{
+    color: #FF9933;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+}
+.text-yellow{
+    color: #FFCC11;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+}
+.text-redcal{
+/* For CAN Monitors Freds request*/
+    color: red;
+    font-family: Arial, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.text-greencal{
+/* For CAN Monitors Freds request*/
+    color: green;
+    font-family: Arial, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.text-orangecal{
+    color: orange;
+    font-family: Arial, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.ref-popup {
+    background: transparent url(graphic/popupblu.gif) no-repeat center right;
+    display: inline;
+    padding-right: 15px;
+}
+.quick-box-long>:first-child {
+    background-color: #eeeeee;
+    font-weight: bold;
+    margin: 0px 0px;
+    margin-top: 25px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    width: 75px;
+}
+.quick-box-long .icon-index {
+    margin: 0px 15px;
+}
+ul.circle {
+    list-style-position:outside;
+    list-style-type:disc    
+}
+ul.disc {
+    list-style-position:outside;
+    list-style-type:disc
+}
+ul.square {
+    list-style:outside;
+    list-style-type:square
+}
+ul.parameter {
+    list-style-position:outside;
+    font-weight: bold;
+    list-style-type:disc;
+}
+span.def {
+/* italicized definitions or notes in line break*/
+    margin-top: 3px;
+    font-style: italic;
+    display:block;
+}
+li.parameter {
+    font-weight: bold;
+}
+ol.uprom{
+    list-style: upper-roman;
+}
+.note2 {
+    background: transparent url(graphic/note.gif) no-repeat top left;
+    margin-left: 10px;
+    min-height: 37px;
+    height: auto !important;
+    height: 37px;
+    padding-left: 45px;
+}
+ul.none{
+    list-style-type: none;
+    line-height: 105%;
+    font-weight: bold;
+}
+div.label{
+    background-color: #eeeeee;
+    padding: 0px 5px;
+    width: 98px;
+}
+div.margined {
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding: 0;
+    margin-top: 0;
+}
+div.firmware {
+    margin-bottom: 0;
+    margin-left: 25px;
+    padding: 0;
+    margin-top: 0;
+}
+a[class ='htm'] {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_htm.gif) no-repeat center left;
+} 
+h5 {
+/* Modal Notification Title Header to avoid using h1 twice*/
+background-color: transparent;
+    color: #204060;
+    font-size: 16px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+span.highlight-blue {
+    background-color: #00BFFF;
+}
+span.highlight-yellow {
+    background-color: #DAA520;
+}
+span.highlight-violet {
+    background-color: #C71585;
+}
+span.highlight-gray {
+    background-color: #696969;
+    color: white;
+}
+span.nolink {
+/* For reference to page titles but with link inactive*/
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+span.highlight-bryellow {
+    background-color: #ffff00;
+}
+a.export-button,
+a.export-button:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+a.export-button:hover{
+    background-color: #2f5c9f;
+    color: white;
+    border: 1px solid #2f5c9f;
+}
+.icon-index span[class ='selected'] {
+    background: transparent url(graphic/cue_select.gif) no-repeat center left;
+    text-decoration: underline;
+    color: #c8a040
+}
+
+span.btn {
+    background-color:#2f5c9f;
+    padding: 3px;
+    color: white;
+    cursor: pointer;
+    }
+    
+span.btn:hover {
+    background-color:#ff8c00;
+    color: white;
+    }    
+
+td.highlight1 {
+    background-color: #ffff00;
+}
+
+td.proposedParameter {
+    background-color: #F1E169;
+    color: black;
+}
+
+td.proposedValue {
+    background-color: #F1E169;
+    color: black;
+}
+
+td.proposedValue:hover {
+    background-color: white;
+    color: black;
+}
+
+td.proposedValue:focus {
+    background-color:blue;
+}
+
+td.invalid {
+    background-color: red;
+    color: white;
+}
+
+input {
+    width: auto;
+}
+
+input.value {
+    width: 25px;
+}
+
+.proposedChangesScrollOn{
+    max-height: 250px;
+    max-width: 150px;
+    overflow: auto;
+}
+
+.proposedChangesScrollOff{
+    max-height: 250px;
+    max-width: 200px;
+    overflow: hidden;
+    
+}
+
+dl.product_info2 dd {
+    margin-left: 500px;
+}

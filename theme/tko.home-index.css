@@ -1,0 +1,194 @@
+#canvas {
+    margin-top: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+
+
+
+/*a:link, a:visited {
+    color: #333333;
+}*/
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+td {
+    color: #333333;
+    text-decoration:none;
+    background-color: #eeeeee;
+}
+td a {
+    color: #0092bd
+}
+
+.document {
+    width: 260px;
+}
+.document,
+.document a{
+    color: #333333;
+    display: inline-block;
+    font-family:Calibri, sans-serif !important;
+    font-weight:bold !important;
+    margin: 2px 10px 2px 6px;
+    text-align: left;
+    text-decoration:none;
+}
+.document a:hover{
+    color:#ffaa00;
+}
+
+.function{
+    border-left-color:#333333;
+    border-left-style:dotted;
+    border-left-width:1px;
+    display:inline-block;
+    font-family:Calibri, sans-serif !important;
+    font-weight:bold !important;
+    margin-bottom:20px;
+    padding-left:10px;
+    position: relative;
+    vertical-align:text-top;
+    width: 270px;
+}
+.function-title{
+    color: #FF8C00;
+    display:inline-block;
+    margin:5px 0px;
+}
+.modal-update img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+.modal-update {
+    width: 250px;
+}
+.popup-box{
+    background: #ffffff;
+    border: 1px solid #ffaa00;
+    margin: 0px;
+    padding: 5px 0px;
+    position: relative;
+    width: 270px;
+}
+.popup-box .document{
+    margin: 0px;
+}
+.popup-box .document a{
+    margin: 3px 10px 3px 12px;
+}
+.popup-holder{
+    bottom: 0px;
+    display: none;
+    left: 160px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+.popup-button img {
+    cursor: pointer;
+    padding-left: 10px;
+}
+.popup-shadow{
+    background: #000000;
+    left: 10px;
+    padding: 5px 0px;
+    top: 10px;
+    position: absolute;
+    width: 270px;
+}
+#ticker-holder{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#ticker-shadow{
+    background: pink;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    height: 5px;
+    text-align: center;
+}
+#ticker-message{
+    cursor: pointer;
+    background: pink;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+#ticker-wrapper {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+}
+#tko-menu {
+  height: 100%;
+  margin-top: 0px;
+}
+#title li{
+    color:rgb(247, 148, 29);
+    line-height:18px;
+    font-family:Calibri, sans-serif !important;
+    font-weight:bold !important;
+    text-decoration:none;
+    margin-bottom:5px;
+    display:inline-block;
+    font-weight:bold;
+    text-transform:uppercase;
+    width:270px;
+}
+#list li{
+    color:#092869;
+    display:block;
+    font-weight:bold;
+    padding:3px;
+}
+#sidebar {
+    background: #333333;
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 230px;
+    border: none;
+}
+#sidebar a {
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    margin-right: 45px;
+}
+
+#sidebar a:hover{
+    color:#ffaa00;
+}
+
+#sidebar .field-tool{
+    border: 2px solid white;
+    cursor: pointer;
+    margin: 5px 10px;
+}
+span.more{
+    background-color: #ff8c00;
+    padding: 5px;
+    color: white;
+}
+span.more:hover{
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+}

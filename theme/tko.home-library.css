@@ -1,0 +1,286 @@
+body{
+    height:100%;
+    font-size:13px;
+    margin-top:0px;
+    font-family: Calibri, sans-serif;
+    background: url("../graphic/bg.jpg") no-repeat fixed right top;
+}
+.caution {
+    border: 2px solid #EEA337;
+}
+.caution-label {
+    background-color: #EEA337;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 1px 4px 1px 4px;
+}
+.caution-text {
+    margin: 0px;
+    padding: 4px;
+}
+.critical{
+    color:red;
+    font-weight:bold;
+}
+[id|='conditional'],
+[class|='conditional'] {
+    display: none;
+}
+div{
+    font-family:Calibri, sans-serif;
+    margin-top:12px;
+    margin-bottom:12px;
+    text-align:justify;
+}
+#ghost{
+    display: none;
+}
+h4{
+    font-family:Calibri, sans-serif;
+    color:#333333;
+}
+.modal-actionset {
+  text-align: center;
+  vertical-align: middle;  
+}
+.modal-actionset input {
+  margin: 2px;  
+}
+#modal-bground {
+  background: #000000;
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1
+}
+.modal-button{
+  position: absolute;
+  right: 2px;
+  top: -30px;
+}
+.modal-button span{
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  background: #999999;
+  margin: 0px 1px;
+  padding: 2px 10px;
+}
+#modal-confirm {
+    margin: 30px 10px;
+    text-align: center;
+}
+#modal-content{
+  display: none;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 15px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+#modal-csghost {
+  display: inline-block;
+  height: 100%;
+  top: 0px;
+  vertical-align: middle;
+  width: 1px;
+}
+.modal-iframe {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#modal-holder{
+  display: none;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 15px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+#modal-message {
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  display: inline-block;
+  min-width: 20%;
+  padding: 15px 15px;
+  position: relative;
+  text-align: justify;
+  vertical-align: middle;
+  white-space: normal;
+  z-index: 2;
+}
+#modal-message table tr td {
+   padding: 2px 10px 2px 10px;
+}
+#modal-message #modal-close{
+  position:absolute;
+  right:0px;
+  top:0px;
+  cursor:pointer;
+}
+#modal-message a:hover{
+  color:orange;
+}
+#modal-message h4{
+  margin-top:0px;
+  color:#333333;
+  font-size:14px;
+  text-align:left;
+}
+#modal-notification{
+  display: none;
+  margin: 0px;
+  width: 70%;  
+}
+#modal-wrapper {
+  left: 0px;
+  margin: 0px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  white-space: nowrap;
+}
+#modal-wrapper #cell {
+  width: 100%;
+  height: 50%;
+}
+.note {
+    border: 2px solid #2f5c9f;
+}
+.note-label {
+    background-color: #2f5c9f;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 1px 4px 1px 4px;
+}
+.note-text {
+    margin: 0px;
+    padding: 4px;
+    background-color: white;
+}
+.ref-dynamic {
+    background: transparent url(graphic/cue_expand.png) no-repeat center right;
+    display: inline;
+    padding-right: 15px;
+}
+.ref-dynamic {
+    background-color: transparent;
+    color: #204060;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.ref-dynamic:hover {
+/* Hyperlinks */
+    color: #c8a040;
+    background-color: transparent;
+}
+.ref-modal, .ref-modeless {
+    background: transparent url(graphic/cue_modeless.png) no-repeat center right;
+    display: inline;
+    padding-right: 15px;
+}
+.ref-modal, .ref-modeless {
+    background-color: transparent;
+    color: #204060;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.ref-modeless {
+    background: transparent url(graphic/cue_modeless.png) no-repeat center right;
+    display: inline;
+    padding-right: 15px;
+}
+.ref-modal:hover, .ref-modeless:hover{
+/* Hyperlinks */
+    color: #c8a040;
+    background-color: transparent;
+}
+.ref-target {
+    display: none;
+}
+th {
+    background: #333333;
+    height: 20px;
+    padding: 0px 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+th[class$='header-title'] {
+    padding: 5px 10px;
+}
+th[class$='header-title'] input {
+    font-size: 11px;
+    margin-left: 10px;
+}
+th[class|='sort-header'] {
+    cursor: pointer;
+}
+th.sort-header-desc {
+    background: #204060 url(graphic/cue_sortdesc.png) no-repeat center right;
+    height: 20px;
+    padding-right: 15px;
+}
+th.sort-header-asc {
+    background: #333333 url(graphic/cue_sortasc.png) no-repeat center right;
+    height: 20px;
+    padding-right: 15px;
+}
+.tko-banner{
+    overflow-x:hidden;
+    position:relative;
+}
+.tko-banner #banner-photo{
+    position:relative;
+    white-space:nowrap;
+}
+.tko-banner #banner-photo img{
+    display:none;
+}
+.tko-banner #banner-title{
+    left:0px;
+    top:0px;
+    position:absolute;
+}
+.tko-intro:first-letter{
+    color:#333333;
+    font-size:18px;
+    font-weight:bold;
+}
+.tko-intro{
+    font-size:13px;
+}
+.warning {
+    border: 2px solid #D31145;
+}
+.warning-label {
+    background-color: #D31145;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 1px 4px 1px 4px;
+}
+.warning-text {
+    margin: 0px;
+    padding: 4px;
+}

@@ -1,0 +1,934 @@
+/************************************
+Use this CSS to style custom elements
+*************************************/
+/* integrated modular solutions/ims-technical-tips */
+.row-tam-ims {
+    max-width: 250px;
+}
+
+/* EOL index */
+#eol-index {
+  text-align: center;
+  background-color: white;
+}
+
+#eol-index td {
+  text-align: justify;
+  padding: 3px 10px;
+  border: 0px solid #ffffff;
+  background: #eeeeee;
+}
+#eol-index td a {
+  color: #0092bd;
+}
+
+/* tools/technical connection */
+.tech-conn {
+  max-width: 720px;
+}
+.tech-conn table {
+  margin-right: 10px;
+}
+
+/* 60hz cooling/technical tips/field change notices */
+.na-cool-tips {
+    max-width: 685px;
+}
+.na-cool-sb {
+    max-width: 720px;
+}
+.na-cool-tips table {
+    margin-right: 10px;
+}
+
+.na-cool-techtips {
+    max-width: 600px;
+}
+.na-warranty-forms {
+    max-width: 600px;
+}
+
+.na-cool-techtips table {
+    margin-right: 10px;
+}
+
+/* 60hz cooling/technical tips/monitoring equipment */
+.na-cool-monitoring {
+    max-width: 610px;
+}
+
+/* System Monitoring/Alber Service Bulletins*/
+.alber-sb {
+    max-width: 750px;
+}
+/* System Monitoring/Site Scan Web/Software Upgrades*/
+.ssweb-swupgrades {
+    max-width: 500px;
+}
+
+/* 50hz cooling/technical tips*/
+.row-cool-tips {
+    max-width: 700px;
+}
+
+/* 50hz power/technical tips*/
+.row-power-tips {
+    max-width: 635px;
+}
+
+/* 60hz cooling/icom software/release notes */
+.na-icom_release_notes {
+    max-width: 685px;
+}
+.na-cool-sb {
+    max-width: 720px;
+}
+.na-icom_release_notes table {
+    margin-right: 10px;
+}
+
+.na-icom_release_notes {
+    max-width: 600px;
+}
+
+
+
+/* asco/technical tips*/
+.row-asco-tips {
+    max-width: 550px;
+}
+/* asco/transfer switches*/
+.asco-ts-summary {
+    max-width: 312px;
+}
+/* asco/transfer switches*/
+.asco-ts-mvats {
+    max-width: 312px;
+}
+/* asco/cpms*/
+
+.asco-cpms-5700s td,
+.asco-acc-1PS1 td,
+.asco-acc-6D td,
+.asco-acc-summary td
+{
+    width: 150px;
+    border: 1px #204060 solid;
+    text-align: center;
+}
+
+/* comm cards reference table */
+.na-monitoring-comm-card {
+  max-width: 440px;
+  max-height: 115px;
+  border: 1px #204060 solid;
+  text-align: center;
+}
+
+/* comm cards reference table */
+.na-monitoring-velocity-notes {
+  max-width: 440px;
+  max-height: 250px;
+  border: 1px #204060 solid;
+  text-align: justify;
+}
+.asco-metering-data-monitor td, 
+.asco-metering-ion-meter td,
+.asco-metering-power-meter td,
+.asco-metering-power-quality-meter td,
+.asco-ts-mvats td,
+.asco-ts-summary td,
+.asco-connmod-72A td,
+.asco-connmod-72E td,
+.asco-connmod-72EE td,
+.asco-connmod-72EE2 td,
+.asco-acc-1G td,
+.asco-connmod-2C td,
+.asco-acc-18 td,
+.asco-acc-34A-B td,
+.asco-acc-44 td,
+.asco-annun td
+{
+    border: 1px #204060 solid;
+    text-align: center;
+}
+.asco-cpms-5700s, 
+.asco-metering-data-monitor,
+.asco-metering-power-quality-meter,
+.asco-ts-summary,
+.asco-connmod-72EE,
+.asco-connmod-72EE2,
+.asco-acc-1PS1,
+.asco-acc-6D,
+.asco-acc-18,
+.asco-acc-summary
+{
+    max-width: 350px;
+}
+
+.asco-metering-ion-meter,
+.asco-metering-power-meter,
+.asco-ts-mvats,
+.asco-connmod-72A,
+.asco-connmod-72E,
+.asco-acc-1G,
+.asco-connmod-2C,
+.asco-acc-34A-B,
+.asco-acc-44,
+.asco-annun
+{
+    max-width: 600px;
+}
+
+/* asco/annunciator*/
+.asco-annun-214 {
+    max-width: 312px;
+}
+/*asco controller*/
+.asco_control {
+    max-width:600px;
+}
+
+
+
+/* 60hz power/chloride/references*/
+.na-chloride-ref {
+    max-width: 280px;
+}
+/* 60hz power/references*/
+.na-pwr-ref {
+    max-width: 520px;
+}
+/* 60hz power/batteries*/
+.na-batteries-ref {
+    max-width: 500px;
+}
+.na-batteries-memo {
+    max-width: 650px;
+
+}
+.na-batteries-mfg {
+    max-width: 500px;
+}
+/* customer orientation guides*/
+.na-cust-guide {
+    max-width: 270px;
+}
+
+/* generic custom HTM content style */
+.modal-content-htm th.head{
+    height: 30px;
+}
+.modal-content-htm tr td{
+    font-size: 12px;
+    padding: 2px 15px;
+    white-space: nowrap;
+}
+
+/* system monitoring/site modules/ss hardware replacement matrix */
+.ss-hw-matrix {
+    width:470px;
+}
+.ss-hw-matrix .head1 {
+    background: #00BFFF;
+}
+/* home notifications / generic safety banner style */
+.safety-banner {
+    background: #D31145 url('graphic/ico-warn.png') no-repeat 10px 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: -15px -15px 20px -15px;
+    padding: 11px 20px 11px 20px;
+    text-align: center;
+    vertical-align: middle
+}
+.safety-banner div{
+    margin: 2px;
+    text-align: left;
+}
+
+/* home notifications / generic knockout newsletter style */
+.newsletter-banner {
+    background: #FBA22E url('graphic/ico-news.png') no-repeat 10px 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 11px 20px 11px 20px;
+    text-align: center;
+    vertical-align: middle;
+    max-height: 500px;
+    min-width:640px;
+    min-height:35px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+}
+.newsletter-banner div{
+    margin:  0px 46px;
+    text-align: left;
+}
+
+.newsletter-intro div{
+    margin: 2px;
+    text-align: left;
+}
+
+.newsletter-body {
+    margin: 2px;
+    text-align: left;
+    padding: 2px 22px 0 0;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.label{
+    vertical-align: top;
+    font-weight: bold;
+}
+/* home notifications / default style for notifications */
+.nag-default {    
+    max-width: 650px;
+}
+.nag-default td{
+    border: none;
+    background-color: white;
+}
+/* home notifications / K1_3456 */
+.k1_3456 {
+    max-width: 635px;
+}
+/* home notifications / X_3462 */
+.x_3462 {
+    max-width: 650px;
+}
+.x_3462 .subtitle {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+}
+/* home notifications / X_3470 */
+.x_3470 {
+    max-width: 670px;
+}
+.x_3470 .subtitle {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+}
+a[class ='pdf'] {
+    padding-left: 20px;
+    background: transparent url(graphic/ico_pdf.gif) no-repeat center left;
+}
+
+#asco-sel-tab td, #asco-doc-tab td{
+    background-color: #f2f2f2
+}
+
+#asco-doc-tab {
+    max-width: 600px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.link-box {
+    background-color: #204060;
+    float: left;
+    margin: 2px;
+    width: 175px;
+    height:44px;
+    text-align: center;
+    display: inline;
+}
+
+.link-box a {
+    display: block;
+    text-align: center;
+    min-height: 16px;
+    text-decoration: none;
+}
+.div-root {
+    max-width: 600px;
+    display: none;
+}
+.div-root li {
+    margin: 10px 0px;
+    list-style:none;
+}
+.div_link a, .aDiv {
+    border-bottom: 1px dotted #323232;
+    text-decoration: none;
+    color: #323232;
+}
+.div_link a:hover, .aDiv:hover {
+    border-bottom: none;
+    color: #f7941d;
+    cursor: pointer;
+}
+#nav_home, .span_nav {
+    /*font-size: 0.9em;*/
+    color: #f7941d;
+    cursor: pointer;
+}
+#nav_home:hover, .span_nav:hover {
+    color: #323232;
+}
+
+.mycetv {
+max-width: 400px;
+text-align: center;
+
+}
+
+.mycetv td{
+width: 120px;
+}
+
+.alber-swfw td{
+text-align: center;
+}
+
+.velocitynotestyle{
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+/* Customer Requirements/Echelon/Cross/Diagrams */
+.echelon_diagrams {
+    max-width: 50px;
+}
+
+/* customer requirements/amazon/60hz/eXL */
+.cus-amazon-EXL-firmware {
+    max-width: 750px;
+}
+
+/* customer requirements/amazon/60hz/eXL */
+.amazon_exl_summary {
+    max-width: 600px;
+}
+.amazon_exl_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+/* customer requirements/amazon/60hz/NXL */
+.cus-amazon-NXL-firmware {
+    max-width: 400px;
+}
+
+/* customer requirements/amazon/60hz/exm */
+.cus-amazon-EXM-firmware {
+    max-width: 500px;
+}
+.cus-amazon-EXM-firmware td {
+    text-align: center;
+}
+
+/* customer requirements/amazon/60hz/EXL S1 */
+.cus-amazon-exls1-firmware {
+    max-width: 500px;
+}
+
+/* customer requirements/amazon/50hz/EXL S1 */
+.cus-amazon-exls1-50-firmware {
+    max-width: 350px;
+}
+.amazon-exls1-emea-sb {
+    max-width: 450px;
+    min-height: 80px;
+}
+/* customer requirements/microsoft/50hz/EXL S1 */
+.ms-exls1-emea-sb {
+    max-width: 450px;
+    min-height: 170px;
+}
+.ms-exls1-emea-param {
+    max-width: 350px;
+    min-height: 120px;
+}
+.ms_exls1_schem {
+    max-width: 550px;
+    min-height: 170px;
+}
+/* customer requirements/microsoft/System Monitoring/Method of Procedures */
+.ms_system_mop {
+    max-width: 380px;
+    min-height: 50px;
+}
+/* customer requirements/microsoft/System Monitoring/Firmware Exe Files */
+.ms_system_software {
+    max-width: 280px;
+    min-height: 20px;
+}
+
+/* customer requirements/apple/60hz/eXL */
+.apple_exl_summary {
+    max-width: 350px;
+}
+.apple_exl_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+/* customer requirements/apple/60hz/NXL */
+.apple_nx225_summary {
+    max-width: 400px;
+}
+.apple_nx225_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+/* customer requirements/apple/60hz/NXL */
+.apple_nxl_summary {
+    max-width: 480px;
+}
+.apple_nxl_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+/* customer requirements/microsoft/60hz/EXL S1 */
+.ms_exls1_summary {
+    max-width: 480px;
+    max-height: 900px;
+}
+.ms_exls1_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 3px;
+    color: #ff8c00;
+}
+
+/* customer requirements/microsoft/60hz/Exertherm */
+.ms_extrm_summary {
+    max-width: 360px;
+    height: auto;
+}
+.ms_extrm_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+/* customer requirements/microsoft/60hz/EXM */
+.ms_exm_summary {
+    max-width: 620px;
+}
+.ms_exm_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+.ms_special_customer {
+    max-width: 400px;
+}
+/* customer requirements/verizon/60hz/exm */
+.vzw_exm_summary,
+.vzw_exls1_summary{
+    max-width: 350px;
+    padding: 10px;
+    min-height: 190px;
+}
+.vzw_exm_summary h4,
+.vzw_exls1_summary h4 {
+    border-top: 1px solid #333333;
+    padding-top: 5px;
+    color: #ff8c00;
+}
+
+.group_iad {
+    max-width: 100px;
+}
+
+.ironmt_exls1_mop {
+    max-width: 245px;
+}
+
+.group_fcn_iad {
+    width: 20px;
+}
+
+/* dc power */
+
+.dcp-netsure7100{
+    max-width: 450px;
+}
+
+.dcp-netsure7100-small{
+    max-width: 400px;
+}
+.dcp-netsure7100-xsmall{
+    max-width: 300px;
+}
+   
+
+/* lithium-battery-overview */
+.lithium-battery-overview {
+    max-width: 720px;
+}
+
+/* lithium-battery-overview */
+.lithium-battery-overview td{
+    background-color: white;
+}
+
+/* lithium-battery-overview */
+.lithium-battery-overview table{
+    margin-right: 10px;
+}
+/* buyout-cabinets-charger */
+.buyout-cabinets-charger {
+    max-width: 500px;
+}
+
+/* buyout-cabinets-charger */
+.lithium-battery-overview table{
+    margin-right: 10px;
+    
+}
+.mon-environet {
+    max-width: 415px;
+}
+.mon-environetalert {
+    max-width: 650px;
+}
+.mon-watchdog {
+    max-width: 270px;
+}
+.mon-geist-legacy {
+    max-width: 400px;
+    max-height: 180px;
+}
+.chn-batt-h {
+    max-width: 300px;
+}
+.chn-batt-ibmu {
+    max-width: 280px;
+}
+.chn-batt-L {
+    max-width: 300px;
+}
+.chn-batt-p {
+    max-width: 300px;
+}
+.chn-crv-cw {
+    max-width: 200px;
+}
+.chn-crv4 {
+    max-width: 200px;
+}
+.chn-crv4s {
+    max-width: 250px;
+}
+.chn-dme-0712 {
+    max-width: 320px;
+}
+.chn-dme-017 {
+    max-width: 280px;
+}
+.chn-dme-2227 {
+    max-width: 320px;
+    }
+.chn-cool-xd {
+    max-width: 200px;
+}
+.chn-cool-itg {
+    max-width: 200px;
+}
+.chn-exs {
+    max-width: 280px;
+}
+.chn-li-batt {
+    max-width: 300px;
+}
+.chn-pex3 {
+    max-width: 200px;
+}
+.chn-pex3-ac {
+    max-width: 300px;
+}
+.chn-pex3-cw {
+    max-width: 320px;
+}
+.chn-pex3-dx {
+    max-width: 300px;
+}
+.chn-pex4s {
+    max-width: 300px;
+    height: auto;
+}
+.chn-pex-plus-dx {
+    max-width: 300px;
+}
+.chn-sdc3 {
+    max-width: 280px;
+}
+.chn-srow-v2 {
+    max-width: 400px;
+    height: auto;
+}
+.chn-option {
+    height: auto;
+    max-width: 700px;
+}
+.chn-option td {
+    background-color: white;
+}
+.chn-ups-parts {
+    height: auto;
+    max-width: 200px;
+}
+
+/*Equinix PPC with Pythia*/
+.equin_ppc_pythia {
+    max-width: 255px;
+}
+
+/*Equinix STS2 1800A*/
+.equin_sts2_1800A {
+    max-width: 500px;
+    height: 320px;
+}
+/*Equinix STS2 1800A/ BOM*/
+.equin_sts2_1800A_bom {
+    max-width: 650px;
+}
+/*Equinix STS2 1800A/ Spare*/
+.equin_sts2_1800A_spare {
+    max-width: 650px;
+}
+/* Equinix STS2 1800A/Firmware */
+.equin_sts2_1800A_firmware {
+  width: 1100px;
+  height: 400px;
+}
+/* Equinix STS2 1800A/ EMEA/ EXL S1/ Paris */
+.equin_emea_exl_s1_paris {
+  max-width: 500px;
+  height: 250px;
+}
+/* Equinix STS2 1800A/ EMEA/ EXL S1/ Warsaw */
+.equin_emea_exl_s1_warsaw {
+  max-width: 500px;
+  height: 200px;
+}
+
+/* Equinix EXL S1 / EMEA / Special Applications*/
+.equin_emea_exl_s1_sa {
+    max-width: 40%;
+}
+
+/* Communication Cards/ Market Memo */
+.market-memo {
+  max-width: 650px;
+  height: 100px;
+}
+
+/*Blue Marlin EXL S1 Approved Firmware*/
+.cus-bluemarlin-EXLS1-firmware {
+    max-width: 255px;
+}
+
+
+/*Walmart EXM 60Hz*/
+.walmart_exm {
+    max-width: 381px;
+}
+.walmart_exm div.modal-iframe {
+    margin: 20px auto;
+}
+/*Walmart CE */
+.walmart_ce {
+    max-width: 381px;
+}
+.walmart_ce div.modal-iframe {
+    margin: 20px auto;
+}
+
+/*Lowe's CE */
+.lowes_ce {
+    max-width: 381px;
+}
+.lowes_ce div.modal-iframe {
+    margin: 20px auto;
+}
+
+/*Target Firmware Upgrade*/
+.target_fw_upgrd,
+.target_site_access {
+    max-width: 400px;
+}
+.target_ups_req {
+    max-width: 600px;
+}
+.target_tech_tips {
+    max-width: 600px;
+}
+.target_tech_tips .head  {
+    padding: 5px 0px;
+    font-size: 1.1em;
+}
+.target_tech_tips .spacer  {
+    background: none;
+}
+.target_tech_tips .tip_id  {
+    width: 37px;
+}
+/* Target/ Market Memo */
+.target_market_memo {
+  max-width: 650px;
+  height: 100px;
+}
+
+ .tsmc_literature {
+     max-width: 350px;
+    }
+.tsmc_upssys {
+    max-width: 500px;
+}
+.tsmc_upsschem {
+     max-width: 600px;
+}
+.tsmc_firmware {
+    max-width: 1000px;
+    height: 320px;
+}
+.tsmc_exls1_850kVA_parts {
+    max-width: 550px;
+}
+.tsmc_exls1_825kVA_parts {
+    max-width: 470px;
+}
+.tsmc_exls1_450kVA_parts {
+    max-width: 550px;
+}
+.tsmc_exls1_firmware_UL {
+    max-width: 450px;
+    height: 450px;
+}
+.tsmc_exls1_proc_UL {
+    max-width: 450px;
+    height: auto;
+}
+.airtrunk_phase1_efc_customer_specific_tests {
+    max-width: 375px;
+}
+.airtrunk_phase1_efc_datasheets {
+    max-width: 300px;
+}
+.airtrunk_phase1_efc_manuals {
+    max-width: 485px;
+}
+.airtrunk_phase1_efc_schemes_drawings {
+    max-width: 150px;
+}
+.airtrunk_phase1_efc_spare_parts_lists {
+    max-width: 200px;
+}
+.AHU400_DPL_ONE {
+    max-width: 200px;
+}
+.vertiv_ibmu {
+    max-width: 650px;
+}
+.ibmu_spl {
+    width: 450px;
+}
+.ge_gxt4_schem {
+    max-width: 375px;
+}
+.ge_gxt4_fw {
+    max-width: 600px;
+}
+.ge_gxt4_fw li {
+    margin: 8px auto;
+}
+.ge_gxt4_parts {
+    max-width: 700px;
+}
+.ge_gxt4_um {
+    max-width: 300px;
+}
+/* 50hz Cooling/CRV/CRV with PACC/Software*/
+.row-crv-pacc-sw {
+    max-width: 600px;
+    max-height: 800px;
+}
+
+/* 50hz Cooling/CRV/CRV with PACC/RDU-SIC G2*/
+.row-crv-pacc-rdu {
+    max-width: 350px;
+    max-height: 500px;
+}
+
+/* 50hz Cooling/VRC/Software*/
+.row-vrc-pacc-sw {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+/* 50hz Cooling/DP400/Sensors*/
+.row-dp400-sensors {
+    max-width: 350px;
+    max-height: 500px;
+}
+
+/* 50hz Cooling/PDX/PDX MOP Startup*/
+.pdx-mop-startup {
+    max-width: 600px;
+    max-height: 450px;
+}
+
+/* 50hz Cooling/PDX/PDX MOP Maintenance*/
+.pdx-mop-maint {
+    max-width: 500px;
+    max-height: 450px;
+}
+
+/* 50hz Cooling/CRV/CRV MOP Startup*/
+.crv-mop-startup {
+    max-width: 600px;
+    max-height: 450px;
+}
+
+/* 50hz Cooling/CRV/CRV MOP Maintenance*/
+.crv-mop-maint {
+    max-width: 500px;
+    max-height: 450px;
+}
+
+/* 50hz Cooling/env50/AHU Thermal Wall/Air Scrubber*/
+.ahuthermalwall_airscrubber {
+    max-width: 400px;
+    max-height: 1050px;
+}
+
+/*Power RCAR SmartSheet*/
+.rcar_pwr_ss {
+    max-width:600px;
+}
+.rcar_pwr_ss td {
+    background-color:white;
+    text-align: left;
+}
+.rcar_pwr_ss table td:first-child{
+    width: 24%;
+}
+.rcar_pwr_ss #div-center {
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding: 5px;
+}
+.a36_vid {
+    max-width:400px;
+}

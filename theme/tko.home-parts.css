@@ -1,0 +1,337 @@
+/*#assembly {
+   border: 5px solid #eeeeee;
+   width: 690px;
+   padding: 0px;
+   position: relative;
+}
+
+#assembly div {
+   margin: 1px 0px; 
+}
+
+#assembly div[class|='line'] {
+   cursor: pointer; 
+}
+
+#assembly .header {
+    margin: 0px;
+    padding: 0px 0px;
+    width: 690px;
+    position: relative;
+}
+
+#assembly .details {
+    width: 690px;
+    max-height: 160px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#assembly .header [class$='header-title'] {
+    font-weight: bold;
+    margin: 0px;
+    background: #2f5c9f;
+    padding: 5px 10px;
+    margin: 0px 0px 1px 0px;
+    color: #ffffff;
+}
+
+#assembly .header .label {
+    margin: 0px;
+    background: #2f5c9f;
+    padding: 0px 0px;
+    margin: 0px 0px 1px 0px;
+    color: #ffffff;
+}
+
+#assembly .header .label .number,
+#assembly .header .label .description {
+  border-right: 1px solid #ffffff; 
+}
+
+#assembly .header .key,
+#assembly .details [class|='line'] .key {
+    margin:0px 0px;
+    width:15px;
+    text-align: center;
+    display:inline-block;
+}
+
+#assembly .header .description, 
+#assembly .details [class|='line'] .description {
+    margin:0px 0px;
+    padding: 0px 0px 0px 10px;
+    display:inline-block;
+    width: 280px;
+}
+
+#assembly .header .drawing, 
+#assembly .details [class|='line'] .drawing {
+    margin:0px 0px;
+    padding: 0px 0px 0px 10px;
+    display:inline-block;
+}
+
+#assembly .header .number, 
+#assembly .details [class|='line'] .number {
+    margin:0px 0px;
+    width: 130px;
+    padding: 0px 0px 0px 0px;
+    display:inline-block;
+}*/
+#bom {
+    padding-bottom: 10px;
+}
+[class|='component'] {
+   background: #ffffff;
+   border: 5px solid #eeeeee;
+   width: 620px;
+   padding: 0px;
+   position: relative;
+}
+
+[class|='component'] .details {
+   width: 620px;
+    max-height: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+[class|='component'] div {
+   margin: 1px 0px; 
+}
+
+[class|='component'] .header {
+    padding: 0px 0px;
+    margin: 0px;
+   width: 620px;
+    position: relative;
+}
+
+[class|='component'] .header [class$='header-title'] {
+    font-weight: bold;
+    margin: 0px;
+    background: #2f5c9f;
+    padding: 5px 10px;
+    margin: 0px 0px 1px 0px;
+    color: #ffffff;
+}
+
+[class|='component'] .header .label {
+    margin: 0px;
+    background: #2f5c9f;
+    padding: 0px 0px;
+    margin: 0px 0px 1px 0px;
+    color: #ffffff;
+}
+
+[class|='component'] .header .label .number,
+[class|='component'] .header .label .description,
+[class|='component'] .header .label .item,
+[class|='component'] .header .label .revision,
+[class|='component'] .header .label .drawing,
+[class|='component'] .header .label .quantity,
+[class|='component'] .header .label .info{
+  border-right: 1px solid #ffffff; 
+  padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] .header .label .info {
+  border-right: 1px solid #2f5c9f;
+}
+
+[class|='component'] .header span,
+[class|='component'] .details span{
+   vertical-align: top;
+   display:inline-block;
+   margin:0px 0px;
+}
+[class|='component'] span.key {
+    width:15px;
+    text-align: center;
+}
+
+[class|='component'] span.number {
+    width:132px;
+}
+[class|='component'] span.description {
+    text-align: left;
+    width: 280px;
+    padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] .details span.description {
+    padding: 0px 10px 0px 0px;
+}
+
+[class|='component'] span.drawing {
+    width: 120px;
+    padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] span.item{
+    width:50px;
+    padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] span.revision {
+    width:50px;
+    padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] span.quantity{
+    width:40px;
+    padding: 0px 0px 0px 10px;
+}
+
+[class|='component'] span[class|='info']{
+    width:20px;
+    padding: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+
+[class|='component'] span.info-part:hover{
+    background: #bcbcbc;
+}
+
+[class|='component-imploded'] .header [class$='header-title'],
+[class|='component-imploded'] .header .label{
+    background: green;
+}
+
+[class|='component-imploded'] .header .label .info {
+  border-right: 1px solid green;
+}
+
+[class$='-exploded'],
+[class$='-exploded']:hover {
+  background-color: yellow; 
+}
+[class$='-imploded'],
+[class$='-imploded']:hover {
+  background-color: yellow; 
+}
+[class|=line]{
+
+}
+[class|=line]:hover{
+    background: #eeeeee;
+}
+[class|='line-assy'] {
+    cursor: pointer;
+}
+.drawing a:link, .drawing a:visited {
+    color: #204060;
+}
+.filter-holder{
+    font-family: arial, helvetica, sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    cursor: pointer;
+}
+.filter-icon {
+    margin-top: 8px;
+}
+.filter-text input {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.legend-explode {
+    background: #2f5c9f;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.legend-implode{
+    background: green;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+#search-box{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+#search-ico {
+    margin-left: 5px;
+}
+#search-box input {
+    font-size: 11px;
+    margin-right: 5px;
+}
+#search-box select {
+    font-size: 11px;
+    margin-right: 0px;
+}
+#segment-selector {
+    margin-left: 5px;
+}
+#selector {
+    background-color: #eeeeee;
+    display: inline-block;
+    padding: 7px 20px 7px 10px;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#type-selector span {
+   cursor: pointer; 
+   margin: 0px 0px 0px 15px;
+}
+.close-button {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.loading-indicator {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  margin: 0px;
+}
+.loading-indicator div.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  margin: 0px;
+}
+.loading-indicator table {
+  height: 100%;
+  width: 100%;
+}
+.loading-indicator table td {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: none;
+}
+.pagination {
+  background: #eeeeee;
+  border: 0px;
+  display: block;
+  margin: 0px;
+  padding: 5px 3px 3px 5px;
+  white-space: normal;
+  width: 785px;
+}
+.pagination span {
+  cursor: pointer;
+  border: 1px #ffffff solid;
+  margin: 0px 1px;
+  padding: 0px 5px;
+  display: inline-block;
+}
+.pagination span:hover,
+.pagination span[class$='selected']{
+  background: orange;
+}
+

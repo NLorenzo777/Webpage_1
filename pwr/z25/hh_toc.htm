@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style>
+<!--
+    body {background:204060; text-align:left; color:black; font-family:Arial; font-size:9pt; text-decoration:none}
+    a:link {background: transparent; font-size:9pt }
+    td.purple {color:white; text-align:center; font-size:9pt; font-weight:bold}
+    td.white {color:black; text-align:center; font-size:9pt; font-weight:bold}
+-->
+</style>
+<title>EXL S1 Training and Service Manual</title>
+<meta name="Author" content="Joe Novak">
+<meta name="Description" content="EXL S1 bottom left frame definition for HTML Help contents object">
+</head>
+
+<body topmargin=0 leftmargin=2 link="#000000" alink="#000000" vlink="#000000">
+
+<!-- define table for left panel buttons -->
+<table width=100% border=0>
+<tr>
+<!-- table for left panel -->
+<!-- Contents Button -->
+<td class=purple width=33% bgcolor="#000000">Contents</td>
+
+<!-- Index Button -->
+<td class=white width=33% bgcolor="#fff7e0"><a href="hh_index.htm" target="left">Index</a></td>
+
+<!-- Search Button -->
+<td class=white width=33% bgcolor="#c0c0c0"><a href="search.vbd" target="top">Search</a></td>
+</tr>
+</table>
+
+<!-- define navigator object -->
+<!-- load object contents -->
+<object
+	id=hhctrl
+	type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        codebase="..\..\bin\hhctrl.ocx"
+	width=100%
+        height=93%
+	>
+	<param name="Command" value="Contents">
+        <param name="Item1" value="z25.hhc">
+<!-- following line removes plus/minus from navigator -->
+        <param name="Flags" value="0x200,0x800034,0xffffffff">
+</object>
+
+<!------------------------------------------------------------------------>
+<!-- Copyright  2012 Liebert Global Services (LGS)                     -->
+<!-- All Rights Reserved                                                -->
+<!------------------------------------------------------------------------>
+</body>
+</html>

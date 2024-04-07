@@ -1,0 +1,47 @@
+form{
+    font-size:12px;
+    font-family:arial, helvetica, sans-serif;
+    margin-top:12px;
+    margin-bottom:12px;
+    text-align:justify;
+}
+form .conditional{
+    display:none;
+}
+form div{
+    margin:12px 0px;
+    width:690px;
+}
+form dt{
+    float:left;
+    width:250px;
+    clear:left;
+}
+form dd{
+    margin-left:270px;
+    margin-bottom:5px;
+}
+form dl{
+    margin:0px;
+}
+form .hang{
+    margin-left:40px;
+}
+form .section{
+    border: 2px solid #716e6e;
+    background:#ebebeb;
+    padding:15px 25px 10px 15px;
+}
+form textarea{
+    font-size:12px;
+    font-family:arial, helvetica, sans-serif;
+}
+#request-form{
+    width:730px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#add-browse{
+    height: 20px;
+    font-size:12px;
+}

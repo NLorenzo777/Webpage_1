@@ -1,0 +1,29 @@
+#jumpto {
+  /*background: transparent url(graphic/ico_jumpto.png) no-repeat center left;*/
+  margin: 0px;
+  padding: 0px;
+}
+#jumpto-box {
+  border: 1px solid #333333;
+  font-family: Calibri;
+  padding-left: 5px;
+  margin-right: 5px;
+  width: 140px;    
+}
+.jumpto-box-blank {
+  background: transparent url(graphic/bg_jumpto.png) no-repeat center left;
+}
+.jumpto-box-filled {
+  background: transparent;
+}
+
+#jumpto-go {
+  background: #ff8c00;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px 0px 3px 0px;
+  width: 85px;
+}
