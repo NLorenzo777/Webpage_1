@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>EXL S1: Flash/Firmware - AP30 PIB Firmware Upgrade</title>
+        <meta name="Author" content="Noel Pagatpat" />
+        <meta name="Description" content="EXL S1: Flash/Firmware, Flash Update, PIB Firmware Upgrade" />
+        <meta name="Keywords" content="EXL S1, Flash/Firmware, Flash, Flash Update, PIB Firmware Upgrade, PIB" />
+        <meta name="Filename" content="z2561300.htm" />
+        <meta name="Revised" content="05/08/2023" />
+        <script language="JavaScript" src="theme/json2.js" type="text/javascript"></script>
+        <script language="JavaScript" src="theme/jquery.min.js" type="text/javascript"></script>
+        <script language="JavaScript" src="theme/jstorage.js" type="text/javascript"></script>
+        <script language="JavaScript" src="theme/tko.doc-library.js" type="text/javascript"></script>
+        <script language="JavaScript" src="theme/tko.doc-regular.js" type="text/javascript"></script>
+        <script language="JavaScript" src="pwr/z25/tko.z25.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="theme/tko.doc-na.css" />
+        <link rel="stylesheet" type="text/css" href="pwr/z25/60Hz.z25.css" />
+    </head>
+    
+    <body onload="fLoadTKOTheme();">
+        <h1>AP30 Parallel Interface Board (PIB) Firmware Upgrade</h1>
+        
+        <div class="note">
+            Note: Firmware upgrades to V1.22 and V1.30 requires PIB V1_01 firmware. 
+            Firmware upgrades to DSP V1.32 and higher require PIB V1_02 firmware.
+        </div>
+        
+        <div class="overview">
+            <div class="intro">The GlobalSerialFlash is used to upgrade the PIB. The update itself is quick and easy to accomplish.</div>
+        </div>
+        
+        <div><strong>Tools:</strong></div>
+        <ul>
+            <li>Service computer with appropriate Global Serial Flash installed.</li>
+            <li>Communications cable - RS232 straight-through serial cable.</li>
+        </ul>
+        
+        <div>A new version of the Firmware Update Utility was released in 2017 in support of the EXL S1.</div>
+        
+        <h2>Flash Update Procedure</h2>
+        
+        <div class="note">Note: If maintenance bypass is not available, this procedure will require the customer load to be shut down.</div>
+        
+        <div id="checklist-tip" class="note">
+            How to Use the Checkboxes: The checkboxes in the following procedure are meant to help track progress. 
+            After completing a step, check tbe procedure off by ticking the corresponding checkbox.
+            The check mark(s) will be saved, so that leaving the page is possible and the user can continue with the procedure. 
+            To clear all check marks and remove saved progress on this page, <a href="javascript:%20fClearProcedureChecklist()">click here</a>.
+        </div>
+        
+        <div class="checklist-procedure">
+        <ol class="procedure">
+            <!--<li>If continuing from <a href="z2563000.htm">Complete Flash Update</a> procedure, continue with power removed from the unit.
+                <div class="note">Note: The PIB flash procedure will be performed with the unit in <a href="z25b1b00.htm">Control Power state</a>.</div>
+                <div>Otherwise, place the unit in Control Power state.</div>
+                <div class="note">Note: This step will place the unit in a Control Power state.</div>
+            </li>-->
+            
+            <li id="step_a1">Continue with a serial cable (same cable and port used in DSP Firmware Update) connected from the service laptop to the 
+                <span class="ref-modal">female DB9 connector XP6-AP30-XP3</span> located on top of the unit.
+                <div class="ref-target"><img src="graphic/z256120y.png" alt="female DB9 connector XP6-AP30-XP3"/></div>
+            </li>
+            <li id="step_a2">Place the XP30-XP99 SWs (1 and 2) to the ON position.</li>
+            <li id="step_a3">Launch the Flash Update (FU) Utility application (refer to <em>Global Serial Flash</em>).
+            </li>
+            <li id="step_a4">Select the following <em>GlobalSerialFlash</em> menu settings:
+                <ul>
+                    <li>Product: EXL S1</li>
+                    <li>Device: Parallel Interface Board Tiva M4 MCU</li>
+                    <li>COM Port: PC COM Port</li>
+                    <li>Application File:	Vx_xx_PIB_S1_Tiva.bin</li>
+                    <li>Reference Figure 1.0</li>
+                </ul>
+                <div><img src="graphic/z2561300.png" alt="GlobalSerialFlash Window" /></div>
+                <div class="note">Note: The programming instructions are on the right side of the application window.</div>
+                <div class="note">Note: The image shown is for reference use only.</div>
+            </li>
+            <li id="step_a5">Click <em>Start</em> to begin programming.</li>
+            <li id="step_a6">Close the external input circuit breaker or external rectifier breaker if the unit has a dual-fed input.</li>
+            <li id="step_a7">When completed, exit the Flash Update (FU) Utility (GlobalSerialFlash.exe) application.</li>
+            <li id="step_a8">Open the external input circuit breaker or external rectifier breaker if the unit has a 
+                dual-fed input.</li>
+            <li id="step_a9">Return the PIB flash SWs XP30-XP99 (1 and 2) to their original positions.</li>
+            <li id="step_a10">Remove the serial cable from the laptop to DB9 connector XP6-AP30-XP3.</li>
+            <!-- <li>If performing a Complete Flash Update, continue the procedure at <a href="z2563000.htm#Step4">Step #4</a> 
+                with the unit in a Control Power state.
+                <div>This includes resetting the parameters, changing the power class to another kVA, changing the power class back 
+                    to the original kVA, and restoring the configuration and calibration data.</div>
+                <div>If not performing a Complete Flash Update (e.g. when replacing PIB) then proceed as follows: take the UPS out 
+                    of Control Power state by reconnecting the input voltage sensing connection located in the Logic Control Board 
+                    area, X6 on the AP31 HVC board, and X1 on the AP22 Bypass Control Board.</div>
+            </li> -->
+        </ol>
+        </div>
+        
+    </body>
+</html>
